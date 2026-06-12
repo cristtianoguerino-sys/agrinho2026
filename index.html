@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agro Forte | Futuro Sustentável</title>
+    <meta
+      name="description"
+      content="Site sobre inovação, sustentabilidade e soluções para o campo brasileiro."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav container">
+        <a class="logo" href="#top">Agro Forte</a>
+        <a class="nav-link" href="#mapa">Mapa do Brasil</a>
+        <a class="nav-link" href="#solucoes">Soluções</a>
+        <a class="nav-link" href="#bio">Tecnologias Bio</a>
+      </nav>
+
+      <section class="container hero-grid" id="top">
+        <article class="hero-copy">
+          <p class="eyebrow">Agro Forte • Futuro Sustentável</p>
+          <h1>Equilíbrio entre produção, clima e meio ambiente.</h1>
+          <p class="lead">
+            O campo brasileiro pode produzir mais com menos impacto. Aqui reunimos
+            inovação, práticas sustentáveis e soluções para os desafios recorrentes
+            de cada região.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#mapa">Explorar o mapa</a>
+            <a class="btn btn-secondary" href="#solucoes">Ver soluções</a>
+          </div>
+        </article>
+
+        <aside class="hero-card">
+          <h2>O que podemos aplicar hoje?</h2>
+          <ul>
+            <li>Uso inteligente de água e energia</li>
+            <li>Adubação orgânica e bioinsumos</li>
+            <li>Controle de pragas com técnicas integradas</li>
+            <li>Planejamento por clima e solo</li>
+          </ul>
+        </aside>
+      </section>
+    </header>
+
+    <main class="container">
+      <section class="grid cards" id="solucoes">
+        <article class="card">
+          <h3>Produção com menor impacto</h3>
+          <p>
+            Rotação de culturas, consórcio e plantio direto ajudam a manter o solo
+            vivo, reduzir erosão e aumentar a produtividade ao longo do tempo.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Resiliência ao clima</h3>
+          <p>
+            Sistemas de irrigação eficiente, cobertura do solo e previsão climática
+            ajudam o produtor a responder melhor a seca, excesso de chuva e calor.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Economia circular no campo</h3>
+          <p>
+            Reaproveitamento de resíduos, compostagem e biofertilizantes diminuem
+            custos e transformam o que era rejeito em valor para a propriedade.
+          </p>
+        </article>
+      </section>
+
+      <section class="panel" id="bio">
+        <div>
+          <p class="eyebrow eyebrow-dark">Tecnologias bio</p>
+          <h2>Biotecnologia e natureza em parceria</h2>
+          <p>
+            A agricultura bio pode utilizar microrganismos, biofertilizantes,
+            bioinseticidas e sementes mais resistentes para reduzir dependência de
+            insumos químicos e fortalecer a saúde do solo.
+          </p>
+        </div>
+        <ul class="chip-list">
+          <li>Biofertilizantes</li>
+          <li>Controle biológico</li>
+          <li>Adubação verde</li>
+          <li>Microbiota do solo</li>
+          <li>Agrofloresta</li>
+          <li>Sensorização inteligente</li>
+        </ul>
+      </section>
+
+      <section class="panel" id="mapa">
+        <div>
+          <p class="eyebrow eyebrow-dark">Mapa interativo</p>
+          <h2>Escolha um estado e veja soluções para o clima e o terreno</h2>
+          <p>
+            Cada região do Brasil tem condições distintas. O mapa abaixo mostra
+            técnicas indicadas para o clima, solo e desafios típicos de cada estado.
+          </p>
+        </div>
+
+        <div class="map-grid">
+          <div id="stateButtons" class="state-buttons" aria-label="Estados do Brasil"></div>
+
+          <article class="state-detail" id="stateDetail">
+            <h3>Selecione um estado</h3>
+            <p>Ao clicar em um estado, as soluções específicas aparecerão aqui.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <p>Agro Forte — Inovação, sustentabilidade e produção consciente para o Brasil.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
